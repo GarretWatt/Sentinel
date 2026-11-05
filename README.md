@@ -24,7 +24,7 @@ Download `sentinel.zip` to get this layout intact. If files arrived flat, create
 pip install -r requirements.txt
 python sentinel.py scan samples --report report.md      # CLI
 powershell -ExecutionPolicy Bypass -File .\persistence_check.ps1   # Windows only
-set SENTINEL_ROOT=C:\NIKKE\Launcher                      # PowerShell: $env:SENTINEL_ROOT="..."
+set SENTINEL_ROOT=C:\ProgramData\ExampleApp\logs         # PowerShell: $env:SENTINEL_ROOT="..."
 uvicorn api:app --host 127.0.0.1 --port 8000             # open http://127.0.0.1:8000
 pytest   # includes test_security.py
 ```

@@ -1,0 +1,28 @@
+{
+  "indicators": [
+    {
+      "name": "k2f_chan",
+      "label": "k2f_chan registered",
+      "pattern": "k2f_chan",
+      "severity": "high",
+      "confidence": "medium",
+      "note": "Channel identifier seen in your investigation. Confirm against a trusted source."
+    },
+    {
+      "name": "insight_bundle",
+      "label": "insight.bundle",
+      "pattern": "insight.bundle",
+      "severity": "high",
+      "confidence": "medium",
+      "note": "Suspicious payload name from your investigation."
+    },
+    {
+      "name": "agent_started",
+      "label": "Agent initialization",
+      "pattern": "agent started",
+      "severity": "low",
+      "confidence": "low",
+      "note": "Generic phrase. Many legitimate programs log this; only meaningful alongside other hits."
+    }
+  ]
+}
